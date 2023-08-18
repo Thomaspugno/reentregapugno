@@ -258,6 +258,10 @@ footer .nav-link:hover {
   background-color: antiquewhite;
 }
 
+#btn-main {
+  margin-top: 26px;
+}
+
 @media (min-width: 1024px) {
   #Header nav {
     height: 100px;
