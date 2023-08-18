@@ -14,3 +14,48 @@
 .bodyBox {
     background-color: antiquewhite;
 }
+
+@media (min-width: 1024px) {
+    #Header {
+        nav {
+            height: 100px;
+            div {
+                a {
+                    font-size: 34px;
+                }
+            }
+            li {
+                a {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    #sobre-nosotros {
+        margin-top: 1px;
+        .imgfondo {
+            height: 350px;
+        }
+    }
+
+    #product-card {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #celular-card {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #smart-card {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}

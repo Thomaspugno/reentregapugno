@@ -2,7 +2,7 @@
 
 
 #sobre-nosotros {
-    .container {
+    .imgfondo {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7),
                 rgba(0, 0, 0, 0.7)),
             url(../img/claude-gabriel-NOUiIuwzECk-unsplash.jpg);
@@ -14,6 +14,7 @@
         h1 {
             color: $color_1;
             font-weight: bold;
+            text-align: center;
         }
 
         .colorSpan {
@@ -24,6 +25,7 @@
             margin-top: 30px;
             font-size: 20px;
             color: $color_1;
+            text-align: center;
         }
     }
 }
@@ -95,6 +97,63 @@ div .btn {
         }
         textarea {
             width: 450px;
+        }
+    }
+}
+
+.formularioContacto {
+    background-color: $color_1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.cajaContact {
+    margin-bottom: 15px;
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        resize: vertical;
+    }
+
+    input[type="submit"] {
+        background-color: $color_2;
+        color: $color_1;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover {
+            background-color: black;
+            color: white;
         }
     }
 }

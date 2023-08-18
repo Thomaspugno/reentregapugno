@@ -65,24 +65,26 @@ footer p {
   height: 300px;
 }
 
-#sobre-nosotros .container {
+#sobre-nosotros .imgfondo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/claude-gabriel-NOUiIuwzECk-unsplash.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-right-radius: 10px;
 }
-#sobre-nosotros .container h1 {
+#sobre-nosotros .imgfondo h1 {
   color: #fff;
   font-weight: bold;
+  text-align: center;
 }
-#sobre-nosotros .container .colorSpan {
+#sobre-nosotros .imgfondo .colorSpan {
   color: #CB3131;
 }
-#sobre-nosotros .container p {
+#sobre-nosotros .imgfondo p {
   margin-top: 30px;
   font-size: 20px;
   color: #fff;
+  text-align: center;
 }
 
 div .btn {
@@ -141,6 +143,58 @@ div .btn:hover {
 }
 #contact-form .container textarea {
   width: 450px;
+}
+
+.formularioContacto {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.cajaContact {
+  margin-bottom: 15px;
+}
+.cajaContact label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.cajaContact input[type=text] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.cajaContact input[type=email] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.cajaContact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+}
+.cajaContact input[type=submit] {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cajaContact input[type=submit]:hover {
+  background-color: black;
+  color: white;
 }
 
 .container {
@@ -202,6 +256,41 @@ footer .nav-link:hover {
 
 .bodyBox {
   background-color: antiquewhite;
+}
+
+@media (min-width: 1024px) {
+  #Header nav {
+    height: 100px;
+  }
+  #Header nav div a {
+    font-size: 34px;
+  }
+  #Header nav li a {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  #sobre-nosotros {
+    margin-top: 1px;
+  }
+  #sobre-nosotros .imgfondo {
+    height: 350px;
+  }
+  #product-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  #celular-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  #smart-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

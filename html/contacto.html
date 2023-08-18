@@ -16,7 +16,7 @@
     <header id="Header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">FAMILY <span class="colorSpan">¡GO!</span></a>
+                <a class="navbar-brand" href="../index.html">FAMILY <span class="colorSpan">¡GO!</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -51,28 +51,36 @@
     </header>
     <main>
         <section id="section-presentation">
-            <div class="container">
-                <h1>Conéctate con Nosotros: Tu Puerta hacia una Comunicación Significativa</h1>
-                <p>En nuestro compromiso de brindarte una experiencia completa, te damos la bienvenida a nuestra página de contacto. Aquí es donde los vínculos se fortalecen y las preguntas encuentran respuestas. Ya sea que estés buscando información adicional, deseas resolver dudas o simplemente deseas saludarnos, este es el lugar adecuado. Estamos listos para escucharte y colaborar contigo en cada paso del camino. Tu opinión y tus preguntas son valiosas para nosotros, y estamos ansiosos por conectarnos contigo de una manera significativa. Juntos, construyamos un diálogo que enriquezca tanto tu experiencia como nuestro compromiso contigo.</p>
+            <div class="divContact">
+                <h1 class="tituloContact">¡Haznos Llegar tus Consultas!</h1>
+                <p class="textoContact">Estamos aquí para escucharte y responder a tus preguntas. Si tienes algún
+                    comentario, sugerencia o consulta, no dudes en ponerte en contacto con nosotros. Tu opinión es
+                    valiosa y nos ayuda a mejorar nuestros servicios. Completa el formulario de contacto a continuación
+                    y te responderemos lo antes posible. ¡Esperamos con interés conectarnos contigo!</p>
             </div>
-        </section>
-        <section id="contact-form">
-            <div class="container">
-               <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Deja tu mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div>
-                    <button class="btn">Enviar</button>
-                </div>
+            <div class="formularioContacto">
+                <h2>Formulario de Contacto</h2>
+                <form>
+                    <div class="cajaContact">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="cajaContact">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="cajaContact">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div class="cajaContact">
+                        <input type="submit" class="btn" value="Enviar">
+                    </div>
+                </form>
             </div>
         </section>
     </main>
-    <div class="container">
+    <div>
         <footer class="py-3 my-4 border-top">
             <p class="col-md-4 mb-0">&copy; 2023 FAMILY¡GO!, Inc</p>
 
