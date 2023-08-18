@@ -1,0 +1,120 @@
+header nav {
+  background-color: #1e1e1e;
+}
+header nav .navbar-toggler {
+  background-color: #fff;
+}
+header nav .nav-link {
+  color: #fff;
+}
+header nav .nav-link:hover {
+  background-color: #fff;
+  color: #CB3131;
+}
+header nav .colorSpan {
+  color: #CB3131;
+}
+header nav .btn {
+  background-color: #CB3131;
+  color: #fff;
+}
+header nav .btn:hover {
+  background-color: #fff;
+  color: #CB3131;
+}
+header nav .navbar-brand {
+  color: #fff;
+}
+
+.container {
+  font-size: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 24px;
+  text-align: center;
+}
+
+#sobre-nosotros .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/claude-gabriel-NOUiIuwzECk-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 10px;
+}
+#sobre-nosotros .container h1 {
+  color: #fff;
+  font-weight: bold;
+}
+#sobre-nosotros .container .colorSpan {
+  color: #CB3131;
+}
+#sobre-nosotros .container p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+div .btn {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+div .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#hero h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "Times New Roman", Times, serif;
+}
+#hero h3 {
+  font-weight: bold;
+}
+#hero p {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+#product-card {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.container {
+  font-size: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 24px;
+  text-align: center;
+}
+
+footer p {
+  color: gray;
+}
+footer .nav-link {
+  color: gray;
+}
+footer .nav-link:hover {
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.bodyBox {
+  background-color: antiquewhite;
+}
+
+/*# sourceMappingURL=estilo.css.map */

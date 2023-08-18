@@ -1,0 +1,16 @@
+@import "variables";
+@import "header";
+@import "main";
+@import "mixin";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.bodyBox {
+    background-color: antiquewhite;
+}

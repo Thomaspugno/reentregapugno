@@ -1,0 +1,12 @@
+@mixin ubicacion($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+.container {
+    @include ubicacion(20px, center )
+}
+
+footer p {
+    @include ubicacion(24px, center )
+}

@@ -1,0 +1,64 @@
+@import "mixin";
+
+
+#sobre-nosotros {
+    .container {
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+            url(../img/claude-gabriel-NOUiIuwzECk-unsplash.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-right-radius: 10px;
+
+        h1 {
+            color: $color_1;
+            font-weight: bold;
+        }
+
+            .colorSpan {
+            color: $color_3;
+        }
+        p {
+            margin-top: 30px;
+            font-size: 20px;
+            color: $color_1;
+        }
+    }
+}
+
+div .btn {
+    background-color: $color_2;
+    color: $color_1;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+} 
+
+#hero {
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+
+    p {
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+
+}
+
+#product-card {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 10px;
+    margin-top: 40px;
+}

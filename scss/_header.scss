@@ -1,0 +1,29 @@
+header {
+    nav {
+        background-color: $color_2;
+        .navbar-toggler {
+            background-color: #fff;
+        }
+        .nav-link {
+            color: $color_1;
+        }
+        .nav-link:hover {
+            background-color: $color_1;
+            color: $color_3;
+        }
+        .colorSpan {
+            color: $color_3;
+        }
+        .btn {
+            background-color: $color_3;
+            color: $color_1;
+        }
+        .btn:hover {
+            background-color: $color_1;
+            color: $color_3;
+        }
+        .navbar-brand {
+            color: $color_1;
+        }
+    }
+}
