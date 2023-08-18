@@ -10,6 +10,11 @@
     margin-top: $margen;
 }
 
+@mixin card($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
 .container {
     @include ubicacion(20px, center )
 }
@@ -24,4 +29,16 @@ footer p {
 
 #celular-card {
     @include espacio(grid,1fr ,20px ,40px )
+}
+
+#celular-card .card img {
+    @include card(auto,300px )
+  }
+
+#product-card .card img {
+    @include card(auto,300px )
+}
+
+#smart-card .card img {
+    @include card(auto,300px )
 }
