@@ -3,10 +3,25 @@
     text-align: $alineacion;
 }
 
+@mixin espacio($display, $column, $space, $margen ) {
+    display: $display;
+    grid-template-columns: $column;
+    gap: $space;
+    margin-top: $margen;
+}
+
 .container {
     @include ubicacion(20px, center )
 }
 
 footer p {
     @include ubicacion(24px, center )
+}
+
+#product-card {
+    @include espacio(grid,1fr ,20px ,40px )
+}
+
+#celular-card {
+    @include espacio(grid,1fr ,20px ,40px )
 }

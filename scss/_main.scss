@@ -3,23 +3,23 @@
 
 #sobre-nosotros {
     .container {
-        background-image: linear-gradient(
-            rgba(0,0,0,0.7),
-            rgba(0,0,0,0.7)),
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)),
             url(../img/claude-gabriel-NOUiIuwzECk-unsplash.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-bottom-right-radius: 10px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-right-radius: 10px;
 
         h1 {
             color: $color_1;
             font-weight: bold;
         }
 
-            .colorSpan {
+        .colorSpan {
             color: $color_3;
         }
+
         p {
             margin-top: 30px;
             font-size: 20px;
@@ -31,11 +31,12 @@
 div .btn {
     background-color: $color_2;
     color: $color_1;
+
     &:hover {
         background-color: black;
         color: white;
     }
-} 
+}
 
 #hero {
     h2 {
@@ -56,9 +57,38 @@ div .btn {
 
 }
 
+#section-presentation {
+    h1 {
+        color: $color_2;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .colorSpan {
+        color: $color_3;
+    }
+
+    p {
+        margin-top: 30px;
+        font-size: 20px;
+        color: $color_2;
+    }
+}
+
 #product-card {
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    gap: 10px;
-    margin-top: 40px;
+    .card {
+        img {
+            width: auto;
+            height: 300px;
+        }
+    }
+}
+
+#celular-card {
+    .card {
+        img {
+            width: auto;
+            height: 300px;
+        }
+    }
 }
