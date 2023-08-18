@@ -130,6 +130,19 @@ div .btn:hover {
   margin-top: 80px;
 }
 
+#contact-form .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-form .container input {
+  width: 300px;
+}
+#contact-form .container textarea {
+  width: 450px;
+}
+
 .container {
   font-size: 20px;
   text-align: center;
